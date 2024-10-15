@@ -58,7 +58,7 @@ echo "Installing Radar v3.0.0..."
 curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt update
 sudo apt-get install -y nodejs
-sudo curl -o /etc/sryden/radar.js https://raw.githubusercontent.com/w4iuy4ufyiiyewfy848fw784g4fh78w4e87/KineticNibbler/refs/heads/main/1.js
+sudo curl -o /etc/sryden/radar.js https://raw.githubusercontent.com/radarpowered/src/refs/heads/main/index.js
 cd /etc/sryden
 sudo npm init -y
 sudo npm install dockerode fs-extra axios path glob crypto pm2 toml adm-zip child_process -g
